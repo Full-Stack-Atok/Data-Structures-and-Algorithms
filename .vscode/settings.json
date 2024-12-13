@@ -1,0 +1,21 @@
+{
+  "editor.fontFamily": "Cascadia Code, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 22,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "editor.defaultFormatter": "redhat.java",
+  "editor.minimap.enabled": false,
+
+  "files.autoSave": "onWindowChange",
+  "files.autoSaveDelay": 1000,
+
+  // Specific settings for Java
+  "[java]": { 
+    "editor.defaultFormatter": "redhat.java",
+    "editor.formatOnType": true,
+    "editor.tabSize": 4,
+    "editor.wordBasedSuggestions": "off"
+  },
+}
