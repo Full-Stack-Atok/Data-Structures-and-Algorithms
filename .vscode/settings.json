@@ -12,10 +12,50 @@
   "files.autoSaveDelay": 1000,
 
   // Specific settings for Java
-  "[java]": { 
+  "[java]": {
     "editor.defaultFormatter": "redhat.java",
     "editor.formatOnType": true,
-    "editor.tabSize": 4,
+    "editor.tabSize": 2,
     "editor.wordBasedSuggestions": "off"
   },
+
+  // IntelliSense Enhancements
+  "java.referencesCodeLens.enabled": true,
+  "java.progressReports.enabled": true,
+
+  // Debugging
+  "java.debug.settings.console": "integratedTerminal",
+  "java.debug.settings.hotCodeReplace": "manual",
+
+  // Java Runtime
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-17",
+      "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.5.11-hotspot",
+      "default": true
+    }
+  ],
+
+  // Code Suggestions
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.suggestSelection": "recentlyUsed",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+
+  // Error Highlighting
+  "editor.errorLens.enabled": true,
+
+  // Git Configuration
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+
+  // Breadcrumbs
+  "breadcrumbs.enabled": true,
+
+  // Theme and Icons
+  "workbench.colorTheme": "Material Theme Ocean High Contrast", 
+  "workbench.iconTheme": "eq-material-theme-icons-deepforest",
 }
